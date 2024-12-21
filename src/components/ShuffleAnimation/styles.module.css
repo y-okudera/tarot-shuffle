@@ -1,0 +1,30 @@
+.shuffleContainer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.card {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  perspective: 1000px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform-origin: center center;
+}
+
+.clickable {
+  cursor: pointer;
+}
